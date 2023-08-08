@@ -1,0 +1,18 @@
+.skill {
+    ul {
+        li {
+            img {
+                width: 4rem;
+                height: 4rem;
+                transition: 0.5s all;
+                &:hover {
+                    scale: 1.2;
+                }
+            }
+            i {
+                font-size: var(--h1-font-size);
+                
+            }
+        }
+    }
+}

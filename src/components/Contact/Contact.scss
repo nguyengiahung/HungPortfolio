@@ -1,0 +1,21 @@
+.contact {
+    .contact__list {
+        .contact__item {
+            i {
+                border-radius: 50%;
+                background-color: var(--color-blue);
+                padding: 1rem;
+                color: #fff;
+            }
+            .contact__info {
+                h5 {
+                    font-size: var(--normal-font-size);
+                    margin-bottom: 0.2rem;
+                }
+                span {
+                    font-size: var(--small-font-size);
+                }
+            }
+        }
+    }
+}
