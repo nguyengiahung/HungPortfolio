@@ -8,6 +8,7 @@
     box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
     animation: 8s ease-in-out infinite 1s ava__animate;
   }
+  
 }
 
 @keyframes ava__animate {
@@ -23,35 +24,26 @@
 }
 
 @media screen and (max-width: 992px) {
-    
-}
-
-/* For medium devices */
-@media screen and (max-width: 768px) {
-  body {
-    margin: 0 0 var(--header-height) 0;
-  }
-
-  .section {
-    padding: 2rem 0 4rem;
-  }
-
-  .section__subtitle {
-    margin-bottom: var(--mb-3);
+  .home {
+    .home__ava {
+      width: 15rem;
+      height: 15rem;
+    }
   }
 }
 
 @media screen and (max-width: 576px) {
+  .home {
+    .home__ava {
+      height: 250px;
+    }
+    .home__social {
+      max-width: 20%;
+    }
+  }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  :root {
-    --big-font-size: 2.25rem;
-  }
-
-  .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
+  
 }

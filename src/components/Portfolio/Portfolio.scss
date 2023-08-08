@@ -22,12 +22,14 @@
           line-height: 1.7rem;
         }
         .portfolio__languages {
+          gap: 0 2rem;
           span {
             color: var(--title-color-dark);
             font-weight: var(--font-bold);
           }
         }
         .portfolio__action {
+          gap: 0 2rem;
           a {
             transition: 0.3s all linear;
             padding: 0.5rem 1rem;
@@ -46,4 +48,18 @@
       }
     }
   }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    .portfolio__list {
+      .portfolio__item {
+        .portfolio__info {
+          .portfolio__desc {
+            font-size: var(--small-font-size);
+          }
+      }
+    }
+  }
+}
 }

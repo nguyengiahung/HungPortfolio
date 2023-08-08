@@ -1,6 +1,15 @@
 .info {
     .info__para {
-        font-size: var(--small-font-size);
+        font-size: var(--normal-font-size);
         line-height: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info {
+        .info__para {
+            font-size: var(--small-font-size);
+            line-height: 1.7rem;
+        }
     }
 }

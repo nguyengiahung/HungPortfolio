@@ -20,7 +20,7 @@
   --body-font: "Poppins", sans-serif;
 
   /*.5rem = 8px | 1rem = 16px ...*/
-  --big-font-size: 3.5rem;
+  --big-font-size: 3.2rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
@@ -88,9 +88,17 @@ ul {
   list-style: none;
 }
 
+p {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: var(--title-color);
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 button {
@@ -132,7 +140,6 @@ img {
   color: var(--title-color);
 }
 
-
 /*=============== BUTTONS ===============*/
 .button {
   display:flex;
@@ -143,6 +150,7 @@ img {
   border-radius: 1rem;
   font-weight: var(--font-medium);
   transition: 0.3s all;
+  margin-top: 2rem;
 }
 
 .button:hover {
@@ -177,10 +185,33 @@ img {
   transition: all 0.3s;
 }
 .btn_to-top:hover {
+  color: #fff;
   background-color: var(--color-blue);
 }
 
 .cd-top--is-visible {
   visibility: visible;
   opacity: 1;
+}
+
+/* For large devices */
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .button {
+    padding: 1rem 1.75rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .button {
+    padding: 1rem 1.75rem;
+  }
+  .section {
+  padding: 8rem 0 2rem;
+  }
 }

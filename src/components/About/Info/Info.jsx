@@ -6,8 +6,8 @@ function Info() {
     <div>
       <div>
         <div className="info">
-          <h2 className="section__title">About Me</h2>
-          <span className="section__subtitle mb-3">
+          <h2 className="section__title d-none d-md-block">About Me</h2>
+          <span className="section__subtitle mb-3 mt-4 mt-md-0">
             A dedicated Front-End Developer based in Da Nang, Viet Nam
           </span>
           <p className="info__para">

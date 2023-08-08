@@ -12,8 +12,21 @@
                     font-size: var(--normal-font-size);
                     margin-bottom: 0.2rem;
                 }
-                span {
+                p {
                     font-size: var(--small-font-size);
+                    word-wrap: break-word;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact {
+        .contact__list {
+            .contact__item {
+                .contact__info {
+                    width: 60%;
                 }
             }
         }

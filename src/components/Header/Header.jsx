@@ -6,15 +6,15 @@ function Header() {
     <header className="header py-2">
       <div className="header-inner">
         <div className="container">
-          <nav className="navbar py-3 navbar-expand-lg d-flex justify-content-between">
+          <nav className="navbar navbar-expand-sm">
             <a className="navbar-brand" href="#">
               Hung.Dev
             </a>
             <button
               className="navbar-toggler"
               type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
@@ -25,9 +25,9 @@ function Header() {
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav mb-2 mb-lg-0 ms-auto gap-3">
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+              <ul className="navbar-nav mb-lg-0 ml-auto">
+                <li className="nav-item active">
+                  <a className="nav-link" href="#">
                     Home
                   </a>
                 </li>
